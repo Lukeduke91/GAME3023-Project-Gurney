@@ -20,7 +20,16 @@ public class PlayerCharacterMovement : MonoBehaviour
         float yInput = Input.GetAxis("Vertical");
 
         Vector3 oldPosition = transform.position;
+        Flip(xInput);
 
         transform.position = oldPosition + new Vector3(xInput, yInput, 0) * MoveSpeed * Time.deltaTime;
+    }
+
+    public void Flip(float x)
+    {
+        if(x != 0.0f)
+        {
+            transform.localScale = new Vector3((x > 0.0f) ? 1.0f : -1.0f, 1.0f, 1.0f);
+        }
     }
 }
