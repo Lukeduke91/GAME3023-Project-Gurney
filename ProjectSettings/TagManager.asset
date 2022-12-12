@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -38,6 +39,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: SkyBox
+    uniqueID: 2691969983
+    locked: 0
+  - name: BackGound
+    uniqueID: 3484472281
+    locked: 0
+  - name: Ground
+    uniqueID: 1094191905
+    locked: 0
+  - name: OnGround
+    uniqueID: 107605655
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ForeGround
+    uniqueID: 4216686873
+    locked: 0
+  - name: Sky
+    uniqueID: 4126522797
     locked: 0

@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 945c14f7670cebc48bea825042f66f85
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Battle_Raider.unity
+    guid: 2e44e996837f8994c9cdf411d24e1d7b
+  - enabled: 1
+    path: Assets/Scenes/Battle_Skeleton.unity
+    guid: b107206c7833eae459526955fe9cd575
+  - enabled: 1
+    path: Assets/Scenes/Battle_Orge.unity
+    guid: 5f9dfb492ca943643ab3ecc762c8ec08
+  - enabled: 1
+    path: Assets/Scenes/Battle_Goblin.unity
+    guid: 456d701d688b6184ab490162505a044d
   m_configObjects: {}
