@@ -37,8 +37,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -236.0918, y: -169.4614}
-  m_SizeDelta: {x: 34.8338, y: 66.1228}
+  m_AnchoredPosition: {x: -286.8885, y: -215.65201}
+  m_SizeDelta: {x: 28.9938, y: 49.7519}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6726448069573968211
 CanvasRenderer:
@@ -169,8 +169,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 341.96, y: 113.98653}
-  m_SizeDelta: {x: -683.92, y: -227.9731}
+  m_AnchoredPosition: {x: 378.78067, y: 69.913284}
+  m_SizeDelta: {x: -938.3174, y: -316.1196}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6726448070079060310
 CanvasRenderer:
@@ -353,8 +353,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -74.6055, y: -160.23001}
-  m_SizeDelta: {x: 55.7046, y: 47.66}
+  m_AnchoredPosition: {x: -152.47571, y: -208.70618}
+  m_SizeDelta: {x: 46.3656, y: 35.8602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6726448070214859989
 CanvasRenderer:
@@ -704,7 +704,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -54.673096, y: 0, z: -14.505127, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -974,7 +974,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -18.285583, y: 0, z: -14.222046, w: 0}
+  m_margin: {x: -50.64319, y: 0, z: -17.569458, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1017,8 +1017,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -239.1532, y: -60}
-  m_SizeDelta: {x: 97.6937, y: 30}
+  m_AnchoredPosition: {x: -289.43665, y: -133.2915}
+  m_SizeDelta: {x: 81.3151, y: 22.5725}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6726448070970936295
 CanvasRenderer:
@@ -1151,8 +1151,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -74.6055, y: -60}
-  m_SizeDelta: {x: 55.7046, y: 30}
+  m_AnchoredPosition: {x: -152.47571, y: -133.2915}
+  m_SizeDelta: {x: 46.3656, y: 22.5725}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6726448071284359766
 CanvasRenderer:
@@ -1235,4 +1235,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6726448071284359767}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: StageTransition, Assembly-CSharp
+        m_MethodName: changeToMainGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
